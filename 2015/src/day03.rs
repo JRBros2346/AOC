@@ -1,5 +1,6 @@
+use std::collections::HashSet;
+
 fn main() {
-    use std::collections::HashSet;
     let input = include_str!("input/day03.txt");
     let mut houses = HashSet::<(i128, i128)>::new();
     houses.insert((0, 0));
