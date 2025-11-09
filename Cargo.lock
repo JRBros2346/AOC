@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "AOC"
+name = "aoc2015"
 version = "0.1.0"
 dependencies = [
  "md5",

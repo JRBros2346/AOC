@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("input");
+    let input = include_str!("input/day02.txt");
     println!(
         "{:?}",
         input.lines().fold((0, 0), |(a, b), e| {

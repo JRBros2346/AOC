@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 fn main() {
-    let input = include_str!("input");
+    let input = include_str!("input/day05.txt");
     println!(
         "{}",
         input.lines().fold(0, |a, e| {

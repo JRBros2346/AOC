@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("input");
+    let input = include_str!("input/day04.txt");
     for i in 0.. {
         if &format!("{:x}", md5::compute(format!("{}{}", input, i)))[0..5] == "00000" {
             println!("{}", i);
