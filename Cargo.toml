@@ -1,5 +1,6 @@
 [workspace]
 resolver = "3"
 members = [
-    "2015"
+    "2015",
+    "2025",
 ]
